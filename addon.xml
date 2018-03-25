@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.phurba" name="Hide Wraith" version="9.0.1" provider-name="Pete Zah">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="phurba.py"/>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Hide the Wraith addon (as an available update)</summary>
+		<description>A small script to delete the Wraith entry in your Addons27.db, this will hide the addon both as an available update and in the repo</description>
+		<disclaimer>This is just a convenience script, use it as you like.</disclaimer>
+		<language></language>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source>https://github.com/petezah/script.phurba</source>
+		<email></email>
+		<assets>
+			<icon></icon>
+			<fanart></fanart>
+			<screenshot></screenshot>
+		</assets>
+	</extension>
+</addon>
